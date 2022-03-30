@@ -7,7 +7,7 @@ https://developer.paypal.com/api/payments/v2/#captures_refund
 
 # Vorbereitungen
 
-Das Skript kann entweder direct als Python Skript, oder als Windows .exe, die im Releasebereich dieses
+Das Skript kann entweder direkt als Python Skript, oder als Windows .exe, die im Releasebereich dieses
 Repositories zur Verfügung steht, ausgeführt werden.
 
 ## Benötigte Dateien
@@ -15,8 +15,8 @@ Repositories zur Verfügung steht, ausgeführt werden.
 Folgende Dateien werden benötigt und müssen auf der lokalen HD in einem gemeinsamen Verzeichnis abgelegt werden:
 
 - pp_refund.py (nur wenn man das Skript direkt als Python-Skript ausführen möchte)
-- requirements.txt
-- pp_refund.exe (asu dem Releasebereich)
+- requirements.txt (nur wenn man das Skript direkt als Python-Skript ausführen möchte)
+- pp_refund.exe (aus dem Releasebereich)
 - config.yaml
 
 ## Konfigurationsdateien
