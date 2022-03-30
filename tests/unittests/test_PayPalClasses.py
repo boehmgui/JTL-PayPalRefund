@@ -64,11 +64,6 @@ class TestPayPalAPI(TestCase):
         with self.assertRaises(requests.exceptions.HTTPError):
             paypal.get_token('/v1/oauth2/token')
 
-    @requests_mock.mock()
-    def test_set_shipping_status(self, mock):
-        paypal = PayPalAPI(client_id='abc', secret='123')
-        url = PayPalAPI.baseurl + '/v1/shipping/trackers-batch'
-        self.skipTest('not implemented')
 
     def test_client_id(self):
         paypal = PayPalAPI(client_id='abc', secret='123')
